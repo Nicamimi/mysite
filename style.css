@@ -42,6 +42,7 @@
     
     float: left; 
     width: 150px; height: 400px;
+    
 }
    
 .center { 
@@ -69,4 +70,41 @@
    body{
        background-image: url(body_back.png);
    }
+
+   a.lpButton {
+    font-weight: 900;
+    width: 130px;
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+    float: left;
+    text-align: center;
+    }
+    a.lpButton:hover {
+    background: rgb(53, 167, 110);
+    }
+    a.lpButton:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+    }
+    
+    .lp li{
+        list-style-type: none;
+    }
+
+    .lp .topmenu{
+        margin-left: -40px;
+    }
+
+    .lp .submenu {
+        display: none;
+    }
+
+    .lp ul li:hover .submenu{
+        display: block;
+    }
 
